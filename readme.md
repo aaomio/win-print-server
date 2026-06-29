@@ -8,6 +8,23 @@ Focus is on setting up a print server, creating shared printers, and managing pr
 
 ---
 
+## Printer Setup
+
+Before configuring the print server, connect the physical printer to the network.
+
+* Connect an Ethernet cable from the printer to a switch access port configured for printer devices.
+* Ensure the switch port is active and connected to the correct VLAN.
+* Verify the printer is configured to obtain an IP address automatically (DHCP).
+* Print the printer's network configuration page to confirm:
+
+  * IP address
+  * Subnet mask
+  * Default gateway
+  * MAC address
+* From PS-01, verify connectivity by running:
+
+---
+
 ## Lab Workflow
 
 Follow steps in order.
@@ -26,6 +43,7 @@ Includes:
 - Domain join for CLIENT-01
 
 ---
+
 
 ## Print Server Setup
 

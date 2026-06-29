@@ -30,16 +30,13 @@ Launch:
 
 Verify:
 
-- Print Servers \\PS-01 is visible
-- Console loads without errors
+- Print Servers \\\PS-01 is visible
 
 ---
 
 ## 3. Verify Printer Network Configuration
 
 Before adding printers:
-
-### Set \ confirm printer IP
 
 ### Print configuration page
 
