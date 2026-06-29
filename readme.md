@@ -48,7 +48,7 @@ Includes:
 
 ## Printer Mapping
 
-- [mapping](./mapping.md)
+- [mapping](./printer-mapping.md)
 - Connect CLIENT-01 to `\\PS-01`
 - Auto-install shared printers
 - Validate domain authentication access
