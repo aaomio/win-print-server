@@ -39,7 +39,7 @@ Set share name:
 Then configure colour settings:
 
 - Right-click printer\Properties
-- Go to **General / Preferences**
+- Go to **Advanced/Printing Defaults...**
 - Color:
   - Color 
 
@@ -69,7 +69,7 @@ Set share name:
 Then configure mono settings:
 
 - Right-click printer\Properties
-- Go to **General / Preferences**
+- Go to **Advanced/Printing Defaults...**
 - Color:
   - Grayscale
 
