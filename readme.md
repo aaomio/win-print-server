@@ -1,4 +1,4 @@
-# Windows Print Server and Print Sevices
+# Windows Print Server and Print Services
 
 Building on https://github.com/aaomio/win-server-AD
 
@@ -30,27 +30,34 @@ Includes:
 ## Print Server Setup
 
 - [print-server-setup](./print-server-setup.md)
+
+Includes:
 - Install Print and Document Services on PS-01
 - Add network printer via TCP/IP (192.168.1.128)
 - Install Epson XP-3200 driver
-- Share printer over domain network
+- Configure shared printer on domain network
 
 ---
 
 ## FollowMe Printers
 
 - [followme](./followme.md)
+
+Includes:
 - Create `FollowMe_Colour`
 - Create `FollowMe_Mono`
-- Configure both queues on same physical printer
+- Configure colour and grayscale policies on same physical printer
 
 ---
 
 ## Printer Mapping
 
-- [mapping](./printer-mapping.md)
+- [printer-mapping](./printer-mapping.md)
+
+Includes:
 - Connect CLIENT-01 to `\\PS-01`
-- Auto-install shared printers
+- Map shared printers via SMB
+- Auto-install drivers via print server
 - Validate domain authentication access
 
 ---
@@ -58,15 +65,17 @@ Includes:
 ## Queue & Spooler Management
 
 - [queue-spooler](./queue-spooler.md)
-- Clear print queues
+
+Includes:
+- Clear stuck print jobs
 - Restart Print Spooler service
-- Troubleshoot stuck jobs
+- Resolve queue issues
 
 ---
 
 ## Summary
 
 This lab demonstrates:
-- Shared printer management
+- Centralised print server management
 - Colour vs mono queue separation
-- Client printer deployment via domain
+- Domain-based printer deployment
