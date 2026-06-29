@@ -64,7 +64,7 @@ After installation:
 
 - Open `printmanagement.msc`
 - Check under:
-  - Print Servers\PS-01\ Drivers
+  - Print Servers\PS-01\Drivers
   - Printers
 
 If it does not appear:
