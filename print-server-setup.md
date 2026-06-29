@@ -30,7 +30,7 @@ Launch:
 
 Verify:
 
-- Print Server \\\PS-01 is visible
+- Print Server\PS-01 is visible
 
 ---
 
