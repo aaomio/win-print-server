@@ -13,7 +13,7 @@ From CLIENT-01:
 
 - Press **Win+R**
 - Enter:
-  - \\PS-01
+  - \\\PS-01
 
 Confirm visibility of:
 - FollowMe_Colour
@@ -27,7 +27,7 @@ Confirm visibility of:
 
 - Press **Win+R**
 - Enter:
-  - \\PS-01
+  - \\\PS-01
 
 Then:
 - Double-click:
@@ -54,8 +54,8 @@ Then:
 
 Enter:
 
-- \\PS-01\FollowMe_Colour  
-- \\PS-01\FollowMe_Mono  
+- \\\PS-01\FollowMe_Colour  
+- \\\PS-01\FollowMe_Mono  
 
 ---
 
