@@ -1,4 +1,4 @@
-# Printer Mapping (PS-01 → CLIENT-01)
+# Printer Mapping (CLIENT-01)
 
 This file covers how domain users connect to shared printers hosted on PS-01.
 
