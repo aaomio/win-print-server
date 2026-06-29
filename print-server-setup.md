@@ -30,7 +30,7 @@ Launch:
 
 Verify:
 
-- Print Servers \ PS-01 is visible
+- Print Servers \\PS-01 is visible
 - Console loads without errors
 
 ---
