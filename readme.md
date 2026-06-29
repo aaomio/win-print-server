@@ -1,4 +1,4 @@
-# Windows Server Active Directory + Print Lab (VMware)
+# Windows Print Server and Print Sevices
 
 Building on https://github.com/aaomio/win-server-AD
 
