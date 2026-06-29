@@ -3,7 +3,7 @@
 This file covers how domain users connect to shared printers hosted on PS-01.
 
 Printers are accessed via SMB share:
-- \\PS-01
+- \\\PS-01
 
 ---
 
