@@ -21,8 +21,7 @@ Before configuring the print server, connect the physical printer to the network
   * Subnet mask
   * Default gateway
   * MAC address
-* From PS-01, verify connectivity by running:
-
+  
 ---
 
 ## Lab Workflow
