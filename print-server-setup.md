@@ -4,7 +4,70 @@ This file covers setup of the Windows Print Server role and Print Management con
 
 ---
 
-## 1. Install Print Server Role
+## 1. Configure Network Settings
+
+Open Network Connections:
+
+```text
+Win + R
+ncpa.cpl
+```
+
+Configure IPv4 settings:
+
+```text
+IP Address:      192.168.178.20
+Subnet Mask:     255.255.255.0
+Default Gateway: 192.168.178.2
+DNS Server:      192.168.178.199
+```
+
+---
+
+## Configure Computer Name
+
+Open System Properties:
+
+```text
+Win + R
+sysdm.cpl
+```
+
+Rename the server:
+
+```text
+FS-01
+```
+
+Restart the system if prompted.
+
+---
+
+## Join the Domain
+
+Open System Properties:
+
+```text
+sysdm.cpl
+```
+
+Join the domain:
+
+```text
+matrix.local
+```
+
+Authenticate using:
+
+```text
+matrix\Administrator
+```
+
+Restart the server after the domain join completes.
+
+---
+
+## 2. Install Print Server Role
 
 On PS-01:
 - Press **Win+R**
@@ -22,7 +85,7 @@ Complete installation and restart if required.
 
 ---
 
-## 2. Open Print Management
+## 3. Open Print Management
 
 Launch:
 
@@ -34,7 +97,7 @@ Verify:
 
 ---
 
-## 3. Verify Printer Network Configuration
+## 4. Verify Printer Network Configuration
 
 Before adding printers:
 
@@ -46,15 +109,15 @@ Print a network/config page to confirm:
 - MAC address
 - Network status
 
----
-
 ### Test connectivity
 
 From PS-01:
 
 - `ping X.X.X.X`
 
-## 4. Install Printer Driver
+---
+
+## 5. Install Printer Driver
 
 - Download the official driver from the Epson support page for the printer model
 - Run the downloaded `.exe` installer on PS-01
