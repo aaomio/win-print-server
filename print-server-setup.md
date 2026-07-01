@@ -36,7 +36,7 @@ sysdm.cpl
 Rename the server:
 
 ```text
-FS-01
+PS-01
 ```
 
 Restart the system if prompted.
