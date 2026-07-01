@@ -24,7 +24,7 @@ DNS Server:      192.168.178.199
 
 ---
 
-## Configure Computer Name
+## 2. Configure Computer Name
 
 Open System Properties:
 
@@ -43,7 +43,7 @@ Restart the system if prompted.
 
 ---
 
-## Join the Domain
+## 3. Join the Domain
 
 Open System Properties:
 
@@ -67,7 +67,7 @@ Restart the server after the domain join completes.
 
 ---
 
-## 2. Install Print Server Role
+## 4. Install Print Server Role
 
 On PS-01:
 - Press **Win+R**
@@ -85,7 +85,7 @@ Complete installation and restart if required.
 
 ---
 
-## 3. Open Print Management
+## 5. Open Print Management
 
 Launch:
 
@@ -97,7 +97,7 @@ Verify:
 
 ---
 
-## 4. Verify Printer Network Configuration
+## 6. Verify Printer Network Configuration
 
 Before adding printers:
 
@@ -117,7 +117,7 @@ From PS-01:
 
 ---
 
-## 5. Install Printer Driver
+## 7. Install Printer Driver
 
 - Download the official driver from the Epson support page for the printer model
 - Run the downloaded `.exe` installer on PS-01
